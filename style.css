@@ -12,6 +12,17 @@ body {
     overflow-x: hidden;
 }
 
+@font-face{
+    font-family: "nuckle";
+    src: url(fonts/62839f1457e13d73481f507a_Nuckle-Semibold.ttf);
+}
+
+
+@font-face{
+    font-family: "LostaMasta";
+    src: url(fonts/628e7fd47c932c32e2471c20_LostaMasta-Light.ttf);
+}
+
 ::-webkit-scrollbar{
     border-radius: 28px;
     width: 10px;
@@ -210,7 +221,7 @@ nav ul li {
 }
 
 #pg1_large_font>span {
-    font: 500 7vmax "Losta masta";
+    font: 500 7vmax "LostaMasta";
     color: white;
     line-height: 16.5vh;
 }
@@ -354,7 +365,7 @@ nav ul li {
 }
 
 #pg_3_bottom_content h1 {
-    font: 500 5vmax "Losta masta";
+    font: 500 5vmax "LostaMasta";
     color: white;
     margin-bottom: 0.3vmax;
 }
@@ -1038,7 +1049,7 @@ nav ul li {
 }
 
 #page_4_bottom h1 {
-    font: 700 6vmax "Losta masta";
+    font: 700 6vmax "LostaMasta";
     color: white;
 }
 
@@ -1343,7 +1354,7 @@ nav ul li {
 }
 
 #pg_6_top h1 {
-    font: 500 7vmax "Losta masta";
+    font: 500 7vmax "LostaMasta";
     color: white;
 }
 
@@ -1515,7 +1526,7 @@ nav ul li {
 }
 
 #pg_8_top h1{
-    font: 500 6vmax "Losta masta";
+    font: 500 6vmax "LostaMasta";
     color: white;
 }
 #pg_8_top p{
@@ -1541,7 +1552,7 @@ nav ul li {
 
 #middle_left_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
@@ -1563,7 +1574,7 @@ nav ul li {
 
 #middle_right_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
@@ -1599,7 +1610,7 @@ nav ul li {
 
 #bottom_left_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
@@ -1621,7 +1632,7 @@ nav ul li {
 
 #bottom_right_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
@@ -1909,7 +1920,7 @@ nav ul li {
 }
 
 #pg_10_circular_content_wrapper #heading{
-    font: 500 4.7vmax "Losta masta";
+    font: 500 4.7vmax "LostaMasta";
     color: white;
 }
 #pg_10_circular_content_wrapper #subheading{
