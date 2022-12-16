@@ -12,6 +12,17 @@ body {
     overflow-x: hidden;
 }
 
+@font-face{
+    font-family: "Nuckle";
+    src: url(fonts/62839f1457e13d73481f507a_Nuckle-Semibold.ttf);
+}
+
+
+@font-face{
+    font-family: "LostaMasta";
+    src: url(fonts/628e7fd47c932c32e2471c20_LostaMasta-Light.ttf);
+}
+
 ::-webkit-scrollbar{
     border-radius: 28px;
     width: 10px;
@@ -69,7 +80,7 @@ body {
 .left ul li {
     margin: 1.5vmax 0;
     color: white;
-    font: 700 4vmax "nuckle";
+    font: 700 4vmax "Nuckle";
     transition: 0.3s linear transform;
 }
 
@@ -117,18 +128,18 @@ sup {
 }
 
 .right h5 {
-    font: 500 2vmax "nuckle";
+    font: 500 2vmax "Nuckle";
     color: white;
 }
 
 .right P {
-    font: 500 1.5vmax "nuckle";
+    font: 500 1.5vmax "Nuckle";
     color: rgba(255, 255, 255, 0.689);
     margin-bottom: 2.5vmax;
 }
 
 .right span {
-    font: 500 2.5vmax "nuckle";
+    font: 500 2.5vmax "Nuckle";
     color: white;
     cursor: pointer;
 }
@@ -169,7 +180,7 @@ nav ul {
 }
 
 nav ul li {
-    font: 100 1.7vmax "nuckle";
+    font: 100 1.7vmax "Nuckle";
     color: white;
     margin: 0 1.2vmax;
     cursor: pointer;
@@ -184,6 +195,14 @@ nav ul li {
     cursor: pointer;
 }
 
+/* main  */
+
+/* #main{
+    position: relative;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+} */
+
 /* page_1 */
 
 .page_1 {
@@ -195,14 +214,14 @@ nav ul li {
 }
 
 #pg1_large_font {
-    font: 500 7vmax "nuckle";
+    font: 500 7vmax "Nuckle";
     color: white;
     margin-bottom: 3vmax;
     line-height: 16.5vh;
 }
 
 #pg1_large_font>span {
-    font: 500 7vmax "Losta masta";
+    font: 500 7vmax "LostaMasta";
     color: white;
     line-height: 16.5vh;
 }
@@ -213,7 +232,7 @@ nav ul li {
     background-color: white;
     padding: 2vh 3.5vw;
     border-radius: 22px;
-    font: 200 1.2vmax "nuckle";
+    font: 200 1.2vmax "Nuckle";
 }
 
 /* page_2 */
@@ -289,7 +308,7 @@ nav ul li {
 }
 
 #pg_3_top h1 {
-    font: 400 2.7vmax "nuckle";
+    font: 400 2.7vmax "Nuckle";
     width: 75vw;
     color: white;
 }
@@ -315,13 +334,13 @@ nav ul li {
 
 #pg_3_middle_content p {
     width: 45vw;
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: #d6d3d6;
     margin-bottom: 4vmax;
 }
 
 #pg_3_middle_content p span {
-    font: 900 1.6vmax "nuckle";
+    font: 900 1.6vmax "Nuckle";
     color: white;
 }
 
@@ -331,7 +350,7 @@ nav ul li {
     background-color: white;
     padding: 2vh 3.5vw;
     border-radius: 22px;
-    font: 500 1.2vmax "nuckle";
+    font: 500 1.2vmax "Nuckle";
 }
 
 /* pg_3_bottom */
@@ -346,13 +365,13 @@ nav ul li {
 }
 
 #pg_3_bottom_content h1 {
-    font: 500 5vmax "Losta masta";
+    font: 500 5vmax "LostaMasta";
     color: white;
     margin-bottom: 0.3vmax;
 }
 
 #pg_3_bottom_content P {
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: white;
     width: 40vw;
     text-align: center;
@@ -365,7 +384,7 @@ nav ul li {
     background-color: white;
     padding: 2.5vh 4vw;
     border-radius: 28px;
-    font: 500 1.2vmax "nuckle";
+    font: 500 1.2vmax "Nuckle";
 }
 
 /* page_4 */
@@ -469,14 +488,14 @@ nav ul li {
 
 #top_box_1_content_wrapper p {
     width: 78%;
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     margin: 0.5vmax 0 0 0;
     color: rgba(255, 255, 255, 0.785);
 }
 
 #top_box_1_content_wrapper h3 {
     width: 50%;
-    font: 700 2vmax "nuckle";
+    font: 700 2vmax "Nuckle";
     color: white;
 }
 
@@ -571,14 +590,14 @@ nav ul li {
 
 #top_box_2_content_wrapper p {
     width: 82%;
-    font: 100 1.4vmax "nuckle";
+    font: 100 1.4vmax "Nuckle";
     margin: 0.5vmax 0 0 0;
     color: rgba(255, 255, 255, 0.785);
 }
 
 #top_box_2_content_wrapper h3 {
     width: 70%;
-    font: 700 2vmax "nuckle";
+    font: 700 2vmax "Nuckle";
     color: white;
 }
 
@@ -672,14 +691,14 @@ nav ul li {
 
 #top_box_3_content_wrapper p {
     width: 75%;
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     margin: 0.5vmax 0 0 0;
     color: rgba(255, 255, 255, 0.785);
 }
 
 #top_box_3_content_wrapper h3 {
     width: 50%;
-    font: 700 2vmax "nuckle";
+    font: 700 2vmax "Nuckle";
     color: white;
 }
 
@@ -791,14 +810,14 @@ nav ul li {
 
 #middle_box_1_content_wrapper p {
     width: 75%;
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     margin: 0.5vmax 0 0 0;
     color: rgba(255, 255, 255, 0.785);
 }
 
 #middle_box_1_content_wrapper h3 {
     width: 50%;
-    font: 700 2vmax "nuckle";
+    font: 700 2vmax "Nuckle";
     color: white;
 }
 
@@ -892,14 +911,14 @@ nav ul li {
 
 #middle_box_2_content_wrapper p {
     width: 75%;
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     margin: 0.5vmax 0 0 0;
     color: rgba(255, 255, 255, 0.785);
 }
 
 #middle_box_2_content_wrapper h3 {
     width: 50%;
-    font: 700 2vmax "nuckle";
+    font: 700 2vmax "Nuckle";
     color: white;
 }
 
@@ -993,14 +1012,14 @@ nav ul li {
 
 #middle_box_3_content_wrapper p {
     width: 75%;
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     margin: 0.5vmax 0 0 0;
     color: rgba(255, 255, 255, 0.785);
 }
 
 #middle_box_3_content_wrapper h3 {
     width: 55%;
-    font: 700 2vmax "nuckle";
+    font: 700 2vmax "Nuckle";
     color: white;
 }
 
@@ -1030,12 +1049,12 @@ nav ul li {
 }
 
 #page_4_bottom h1 {
-    font: 700 6vmax "Losta masta";
+    font: 700 6vmax "LostaMasta";
     color: white;
 }
 
 #page_4_bottom a {
-    font: 700 1.4vmax "nuckle";
+    font: 700 1.4vmax "Nuckle";
     color: black;
     border-radius: 28px;
     text-decoration: none;
@@ -1066,7 +1085,7 @@ nav ul li {
 }
 
 #txt_img_1_div>h3 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 3vmax;
     word-spacing: 2px;
@@ -1085,7 +1104,7 @@ nav ul li {
 }
 
 #txt_img_1_div header h1 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 2vmax;
     word-spacing: 2px;
@@ -1093,7 +1112,7 @@ nav ul li {
 }
 
 #txt_img_1_div header h1>span {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: #feffee;
     font-weight: 300;
     font-size: 1.6vmax;
@@ -1130,7 +1149,7 @@ nav ul li {
 }
 
 #txt_img_2_div>h3 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 3vmax;
     word-spacing: 2px;
@@ -1149,7 +1168,7 @@ nav ul li {
 }
 
 #txt_img_2_div header h1 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 2vmax;
     word-spacing: 2px;
@@ -1157,7 +1176,7 @@ nav ul li {
 }
 
 #txt_img_2_div header h1>span {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: #feffee;
     font-weight: 300;
     font-size: 1.6vmax;
@@ -1198,7 +1217,7 @@ nav ul li {
 }
 
 #txt_img_3_div>h3 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 3vmax;
     word-spacing: 2px;
@@ -1217,7 +1236,7 @@ nav ul li {
 }
 
 #txt_img_3_div header h1 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 2vmax;
     word-spacing: 2px;
@@ -1225,7 +1244,7 @@ nav ul li {
 }
 
 #txt_img_3_div header h1>span {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: #feffee;
     font-weight: 300;
     font-size: 1.6vmax;
@@ -1266,7 +1285,7 @@ nav ul li {
 }
 
 #txt_img_4_div>h3 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 3vmax;
     word-spacing: 2px;
@@ -1285,7 +1304,7 @@ nav ul li {
 }
 
 #txt_img_4_div header h1 {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: white;
     font-size: 2vmax;
     word-spacing: 2px;
@@ -1293,7 +1312,7 @@ nav ul li {
 }
 
 #txt_img_4_div header h1>span {
-    font-family: nuckle, sans-serif;
+    font-family: Nuckle, sans-serif;
     color: #feffee;
     font-weight: 300;
     font-size: 1.6vmax;
@@ -1335,7 +1354,7 @@ nav ul li {
 }
 
 #pg_6_top h1 {
-    font: 500 7vmax "Losta masta";
+    font: 500 7vmax "LostaMasta";
     color: white;
 }
 
@@ -1373,7 +1392,7 @@ nav ul li {
 
 .swiper-slide p{
     width: 50%;
-    font: 100 1.4vmax "nuckle";
+    font: 100 1.4vmax "Nuckle";
     color: white;
     position: absolute;
     right: 11%;
@@ -1391,7 +1410,7 @@ nav ul li {
 .swiper-slide h5{
     position: absolute;
     left: 39.1%;
-    font: 100 1.4vmax "nuckle";
+    font: 100 1.4vmax "Nuckle";
     color: white;
     bottom: 27%;
 }
@@ -1399,7 +1418,7 @@ nav ul li {
 .swiper-slide span{
     position: absolute;
     left: 39.1%;
-    font: 100 1vmax "nuckle";
+    font: 100 1vmax "Nuckle";
     color: rgba(255, 255, 255, 0.697);
     bottom: 19%;
 }
@@ -1507,11 +1526,11 @@ nav ul li {
 }
 
 #pg_8_top h1{
-    font: 500 6vmax "Losta masta";
+    font: 500 6vmax "LostaMasta";
     color: white;
 }
 #pg_8_top p{
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: white;
     text-align: center;
     width: 28vw;
@@ -1533,16 +1552,16 @@ nav ul li {
 
 #middle_left_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
 #middle_left_text_wrapper h5{
-    font: 600 2.5vmax "nuckle";
+    font: 600 2.5vmax "Nuckle";
     color: white;
 }
 #middle_left_text_wrapper p{
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: rgba(255, 255, 255, 0.849);
     width: 22vw;
     margin-top: 0.5vmax;
@@ -1555,16 +1574,16 @@ nav ul li {
 
 #middle_right_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
 #middle_right_text_wrapper h5{
-    font: 600 2.5vmax "nuckle";
+    font: 600 2.5vmax "Nuckle";
     color: white;
 }
 #middle_right_text_wrapper p{
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: rgba(255, 255, 255, 0.849);
     width: 22vw;
     margin-top: 0.5vmax;
@@ -1591,16 +1610,16 @@ nav ul li {
 
 #bottom_left_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
 #bottom_left_text_wrapper h5{
-    font: 600 2.5vmax "nuckle";
+    font: 600 2.5vmax "Nuckle";
     color: white;
 }
 #bottom_left_text_wrapper p{
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: rgba(255, 255, 255, 0.849);
     width: 23.5vw;
     margin-top: 0.5vmax;
@@ -1613,16 +1632,16 @@ nav ul li {
 
 #bottom_right_text_wrapper h1{
     height: 10vw;
-    font: 500 8.5vmax "Losta masta";
+    font: 500 8.5vmax "LostaMasta";
     color: white;
     /* background-color: red; */
 }
 #bottom_right_text_wrapper h5{
-    font: 600 2.5vmax "nuckle";
+    font: 600 2.5vmax "Nuckle";
     color: white;
 }
 #bottom_right_text_wrapper p{
-    font: 100 1.5vmax "nuckle";
+    font: 100 1.5vmax "Nuckle";
     color: rgba(255, 255, 255, 0.849);
     width: 22vw;
     margin-top: 0.5vmax;
@@ -1650,7 +1669,7 @@ nav ul li {
     /* background-color: firebrick; */
 }
 #pg_9_leftside h1{
-    font: 900 6vmax "nuckle";
+    font: 900 6vmax "Nuckle";
     /* background-color: aqua; */
     color: white;
     line-height: 14vh;
@@ -1680,14 +1699,14 @@ nav ul li {
 }
 
 .pg_9_right_1st_div h1{
-    font: 500 1.8vmax "nuckle";
+    font: 500 1.8vmax "Nuckle";
     color: white;
     word-spacing: -0.5px;
     letter-spacing: -1px;
     margin-bottom: 0.5vmax;
 }
 .pg_9_right_1st_div h3{
-    font: 100 1.8vmax "nuckle";
+    font: 100 1.8vmax "Nuckle";
     color: rgba(255, 255, 255, 0.797);
     word-spacing: -0.5px;
     letter-spacing: -1px;
@@ -1714,14 +1733,14 @@ nav ul li {
 }
 
 .pg_9_right_2nd_div h1{
-    font: 500 1.8vmax "nuckle";
+    font: 500 1.8vmax "Nuckle";
     color: white;
     word-spacing: -0.5px;
     letter-spacing: -1px;
     margin-bottom: 0.5vmax;
 }
 .pg_9_right_2nd_div h3{
-    font: 100 1.8vmax "nuckle";
+    font: 100 1.8vmax "Nuckle";
     color: rgba(255, 255, 255, 0.797);
     word-spacing: -0.5px;
     letter-spacing: -1px;
@@ -1749,14 +1768,14 @@ nav ul li {
 }
 
 .pg_9_right_3rd_div h1{
-    font: 500 1.8vmax "nuckle";
+    font: 500 1.8vmax "Nuckle";
     color: white;
     word-spacing: -0.5px;
     letter-spacing: -1px;
     margin-bottom: 0.5vmax;
 }
 .pg_9_right_3rd_div h3{
-    font: 100 1.8vmax "nuckle";
+    font: 100 1.8vmax "Nuckle";
     color: rgba(255, 255, 255, 0.797);
     word-spacing: -0.5px;
     letter-spacing: -1px;
@@ -1784,14 +1803,14 @@ nav ul li {
 }
 
 .pg_9_right_4th_div h1{
-    font: 500 1.8vmax "nuckle";
+    font: 500 1.8vmax "Nuckle";
     color: white;
     word-spacing: -0.5px;
     letter-spacing: -1px;
     margin-bottom: 0.5vmax;
 }
 .pg_9_right_4th_div h3{
-    font: 100 1.8vmax "nuckle";
+    font: 100 1.8vmax "Nuckle";
     color: rgba(255, 255, 255, 0.797);
     word-spacing: -0.5px;
     letter-spacing: -1px;
@@ -1819,14 +1838,14 @@ nav ul li {
 }
 
 .pg_9_right_5th_div h1{
-    font: 500 1.8vmax "nuckle";
+    font: 500 1.8vmax "Nuckle";
     color: white;
     word-spacing: -0.5px;
     margin-bottom: 0.5vmax;
     letter-spacing: -1px;
 }
 .pg_9_right_5th_div h3{
-    font: 100 1.8vmax "nuckle";
+    font: 100 1.8vmax "Nuckle";
     color: rgba(255, 255, 255, 0.797);
     word-spacing: -0.5px;
     letter-spacing: -1px;
@@ -1854,14 +1873,14 @@ nav ul li {
 }
 
 .pg_9_right_6th_div h1{
-    font: 500 1.8vmax "nuckle";
+    font: 500 1.8vmax "Nuckle";
     color: white;
     word-spacing: -0.5px;
     margin-bottom: 0.5vmax;
     letter-spacing: -1px;
 }
 .pg_9_right_6th_div h3{
-    font: 100 1.8vmax "nuckle";
+    font: 100 1.8vmax "Nuckle";
     color: rgba(255, 255, 255, 0.797);
     word-spacing: -0.5px;
     letter-spacing: -1px;
@@ -1901,11 +1920,11 @@ nav ul li {
 }
 
 #pg_10_circular_content_wrapper #heading{
-    font: 500 4.7vmax "Losta masta";
+    font: 500 4.7vmax "LostaMasta";
     color: white;
 }
 #pg_10_circular_content_wrapper #subheading{
-    font: 500 2.4vmax "nuckle";
+    font: 500 2.4vmax "Nuckle";
     color: white;
 }
 
@@ -1918,7 +1937,7 @@ nav ul li {
 }
 
 .mainbox1_props{
-    font: 300 1vmax "nuckle";
+    font: 300 1vmax "Nuckle";
     color: white;
     border: 1px solid #feffee;
     padding: 2vh 2.5vw;
@@ -1928,12 +1947,12 @@ nav ul li {
 }
 
 #pg_10_circular_content_wrapper h3{
-    font: 500 2.4vmax "nuckle";
+    font: 500 2.4vmax "Nuckle";
     color: white;
 }
 
 .mainbox2_props{
-    font: 300 1vmax "nuckle";
+    font: 300 1vmax "Nuckle";
     color: white;
     border: 1px solid #feffee;
     padding: 2vh 2.5vw;
@@ -1944,12 +1963,12 @@ nav ul li {
 }
 
 #pg_10_circular_content_wrapper h4{
-    font: 500 2.4vmax "nuckle";
+    font: 500 2.4vmax "Nuckle";
     color: white;
 }
 
 .mainbox3_props{
-    font: 300 1vmax "nuckle";
+    font: 300 1vmax "Nuckle";
     color: white;
     border: 1px solid #feffee;
     padding: 2vh 2.5vw;
@@ -1968,7 +1987,7 @@ nav ul li {
     padding: 2vh 2vw;
     border-color: #feffee;
     border-radius: 28px;
-    font: 100 1.4vmax "nuckle";
+    font: 100 1.4vmax "Nuckle";
     position: relative;
     color: white;
     outline: none;
@@ -1988,7 +2007,7 @@ nav ul li {
 
 #input_submit_btn{
     text-decoration: none;
-    font: 100 1.3vmax "nuckle";
+    font: 100 1.3vmax "Nuckle";
     color: white;
     background-color: #4169e1;
     padding: 3vh 5vw;
@@ -2020,20 +2039,20 @@ nav ul li {
 }
 
 .footer_li{
-    font: 500 1.2vmax "nuckle";
+    font: 500 1.2vmax "Nuckle";
     color: rgba(255, 255, 255, 0.923);
     padding: 0.4vmax 0;
     cursor: pointer;
 }
 
 .footer_ul_li1{
-    font: 500 1.6vmax "nuckle";
+    font: 500 1.6vmax "Nuckle";
     margin-bottom: 1.5vmax;
     color: white;
 }
 
 .footer_page h5{
-    font: 300 0.9vmax "nuckle";
+    font: 300 0.9vmax "Nuckle";
     color: #d6d3d6;
     position: absolute;
     bottom: 10%;
