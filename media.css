@@ -464,6 +464,7 @@
     #page_4_bottom h1 {
         font-size: 8vmax;
         margin-bottom: 1vmax;
+        text-align: center;
     }
 
     #page_4_bottom a {
